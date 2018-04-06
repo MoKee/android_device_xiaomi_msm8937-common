@@ -20,7 +20,7 @@ VENDOR_PATH := device/xiaomi/msm8937-common
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
     $(VENDOR_PATH)/overlay \
-    $(VENDOR_PATH)/overlay-lineage
+    $(VENDOR_PATH)/overlay-mokee
 
 # Properties
 -include $(VENDOR_PATH)/vendor_prop.mk
