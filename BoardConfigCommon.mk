@@ -127,7 +127,7 @@ TARGET_KERNEL_SOURCE := kernel/xiaomi/msm8937
 TARGET_PROVIDES_LIBLIGHT := true
 
 # Lineage Hardware
-BOARD_HARDWARE_CLASS += $(VENDOR_PATH)/lineagehw
+BOARD_HARDWARE_CLASS += $(VENDOR_PATH)/mkhw
 
 # Malloc
 MALLOC_SVELTE := true
